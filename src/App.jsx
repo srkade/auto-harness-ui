@@ -27,7 +27,7 @@ function App() {
   };
 
   return (
-    <div className={`min-h-screen ${darkMode ? 'dark' : ''}`}>
+    <div className={`min-h-screen ${darkMode ? '' : 'dark'}`}>
       <Helmet>
         <title>ASDM - Automobile Engineering Harness Dashboard</title>
         <meta name="description" content="Professional automotive harness management system for vehicle component visualization and engineering analysis" />
